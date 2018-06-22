@@ -182,7 +182,7 @@ header .about {
 }
 
 header h1 {
-  padding: 15px;
+  padding: 20px;
   line-height: 1.3;
 }
 
@@ -342,6 +342,31 @@ footer h4 {
   #contact {
     padding: 40px;
   }
+
+  a img {
+    height: 35%;
+    width: 20%;
+  }
+
+  /*
+  SECTION
+  */
+
+  section {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin: 5px 120px;
+  }
+
+  section a h1 {
+    font-family: "Open Sans";
+    font-size: 25px;
+  }
+
+  /*
+  FOOTER
+  */
 
   footer {
     height: 20px;
