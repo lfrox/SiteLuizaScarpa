@@ -356,7 +356,7 @@ footer h4 {
     justify-content: center;
     text-align: center;
     display: flex;
-    margin: 35px 120px;
+    margin: 5px 120px;
   }
 
   section a h1 {
@@ -367,6 +367,10 @@ footer h4 {
   /*
   DIV
   */
+
+  a h2 {
+    font-size: 25px;
+  }
 
   .fancybox {
     padding: 50px;
