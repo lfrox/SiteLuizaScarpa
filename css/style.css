@@ -137,6 +137,7 @@ nav ul {
   flex-direction: column;
   align-items: center;
   width: 50%;
+  font-size: 1.3em;
 }
 
 nav ul li {
@@ -290,6 +291,8 @@ INSTA
   }
 
   .botaogaleria {
+    display: block;
+    padding: 10px;
     color: #c2c2c2;
     font-weight: 80px;
     font-size: 1.1em;
