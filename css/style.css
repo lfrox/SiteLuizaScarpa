@@ -90,24 +90,23 @@ p {
   text-decoration: none;
 }
 
+.botaogaleria h2 {
+  font-size: 25px;
+}
+
 /*
 GALLERY
 */
 
-.gallery{
-  margin: 10px 50px;
+a img:hover{
+  opacity:0.8;
+  -moz-opacity:0.8;
+  -webkit-opacity:0.8;
 }
 
-.gallery img{
-  width: 230px;
-  padding: 5px;
-  filter: grayscale(100%);
-  transition: 1s;
-}
-
-.gallery img:hover{
-  filter: grayscale(0);
-  transform: scale(1.1);
+a img {
+  margin: 5px;
+  border-radius: 10px;
 }
 
 /*
@@ -155,7 +154,8 @@ nav ul li a {
 
 nav a h1{
   font-family: "Oswald", Arial, Helvetica, sans-serif;
-  font-size: 25px;
+  font-size: 28px;
+  letter-spacing: 1px;
 }
 
 .setabaixo, .setacima {
@@ -230,6 +230,11 @@ footer {
   text-decoration: none;
 }
 
+.botaofooter:hover {
+  background: #666666;
+  border-radius: 20px;
+}
+
 footer h4 {
   font-size: 15px;
   font-weight: 900;
@@ -295,9 +300,14 @@ INSTA
     padding: 10px;
     color: #c2c2c2;
     font-weight: 80px;
-    font-size: 1.1em;
+    font-size: 1em;
     letter-spacing: 1px;
-    margin: 50px 0 0 0;
+    margin: 15px;
+  }
+
+  .botaogaleria:hover {
+    background: #666666;
+    border-radius: 20px;
   }
   
   /*
@@ -330,6 +340,7 @@ INSTA
 
   nav ul li:hover{
     background: #666666;
+    border-radius: 20px;
   }
 
   /*
@@ -347,7 +358,7 @@ INSTA
   header .about {
     width: 30%;
     float: left;
-    margin: 5px 10px 0 120px;
+    margin: 5px 10px 0 200px;
   }
   
   header {
@@ -359,13 +370,10 @@ INSTA
   header p {
     font-family: "Oswald", Arial, Helvetica, sans-serif;
     font-weight: 400;
-    font-size: 20px;
-    padding: 0 120px;
+    font-size: 1.5em;
+    padding: 0 200px;
+    margin: 0 0 50px;
     text-align: justify;
-  }
-  
-  #contact {
-    padding: 40px;
   }
 
   a img {
@@ -385,15 +393,22 @@ INSTA
   }
 
   section a h1 {
-    font-family: "Open Sans";
+    font-family: "Oswald", Arial, Helvetica, sans-serif;
     font-size: 25px;
+    letter-spacing: 1px;
+    padding: 15px;
+  }
+
+  section a h1:hover {
+    background: #666666;
+    border-radius: 20px;
   }
 
   /*
   DIV
   */
   .contato {
-    padding: 80px 0 0;
+    padding: 80px 200px 0;
   }
 
   a h2 {
@@ -401,7 +416,7 @@ INSTA
   }
 
   .fancybox {
-    padding: 50px;
+    padding: 50px 0;
   }
 
   /*
@@ -409,7 +424,7 @@ INSTA
   */
 
   .container {
-    margin: 100px 0 0;
+    margin: 20px 0 0;
   }
 
   #instafeed {
