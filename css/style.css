@@ -230,11 +230,6 @@ footer {
   text-decoration: none;
 }
 
-.botaofooter:hover {
-  background: #666666;
-  border-radius: 20px;
-}
-
 footer h4 {
   font-size: 15px;
   font-weight: 900;
@@ -306,8 +301,12 @@ INSTA
   }
 
   .botaogaleria:hover {
-    background: #666666;
-    border-radius: 20px;
+    background-image: url('../img/botaogaleria.png');
+    background-size: cover;
+    background-position: center;
+    color: black;
+    padding: 10px;
+    margin: 15px;
   }
   
   /*
@@ -338,9 +337,11 @@ INSTA
     display: none;
   }
 
-  nav ul li:hover{
-    background: #666666;
-    border-radius: 20px;
+  .botao:hover {
+    background-image: url('../img/teste_tinta.png');
+    background-size: cover;
+    background-position: center;
+    color: rgb(41, 41, 41);
   }
 
   /*
@@ -399,11 +400,6 @@ INSTA
     padding: 15px;
   }
 
-  section a h1:hover {
-    background: #666666;
-    border-radius: 20px;
-  }
-
   /*
   DIV
   */
@@ -442,6 +438,13 @@ INSTA
     -webkit-opacity:0.8;
   }
 
+  .botaoinsta:hover {
+    background-image: url('../img/botaoinsta.png');
+    background-size: cover;
+    background-position: center;
+    color: black;
+  }
+
   /*
   FOOTER
   */
@@ -449,6 +452,14 @@ INSTA
   footer {
     height: 20px;
     padding: 30px;
+  }
+
+  .botaofooter:hover {
+    background-image: url('../img/botaosobre.png');
+    background-size: cover;
+    background-position: center;
+    color: black;
+    padding: 0px 10px 0px 10px;
   }
   
 }
