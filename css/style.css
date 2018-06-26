@@ -400,6 +400,14 @@ INSTA
     padding: 15px;
   }
 
+  .botaosobre:hover {
+    background-image: url('../img/botaosobre.png');
+    background-size: cover;
+    background-position: center;
+    color: black;
+    padding: 0px 10px 0px 10px;
+  }
+
   /*
   DIV
   */
@@ -452,14 +460,6 @@ INSTA
   footer {
     height: 20px;
     padding: 30px;
-  }
-
-  .botaofooter:hover {
-    background-image: url('../img/botaosobre.png');
-    background-size: cover;
-    background-position: center;
-    color: black;
-    padding: 0px 10px 0px 10px;
   }
   
 }
