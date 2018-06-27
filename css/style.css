@@ -63,7 +63,7 @@ main {
 body {
   font-family: "Oswald", Arial, Helvetica, sans-serif;
   color: #c2c2c2;
-  background-color: #000000;
+  background-color: #141414;
 }
 
 h1, h2, h3 {
@@ -215,6 +215,19 @@ div ul li {
 }
 
 /*
+INSTA
+*/
+
+.instaimg img {
+  margin: 30px 0 0;
+  border-radius: 10px;
+}
+
+.container {
+  margin: 40px 0 0;
+}
+
+/*
 FOOTER
 */
 
@@ -233,19 +246,6 @@ footer {
 footer h4 {
   font-size: 15px;
   font-weight: 900;
-}
-
-/*
-INSTA
-*/
-
-.instaimg img {
-  margin: 30px 0 0;
-  border-radius: 10px;
-}
-
-.container {
-  margin: 40px 0 0;
 }
 
 @media only screen and (max-width: 768px){
@@ -461,5 +461,5 @@ INSTA
     height: 20px;
     padding: 30px;
   }
-  
+
 }
