@@ -107,6 +107,7 @@ a img:hover{
 a img {
   margin: 10px;
   border-radius: 10px;
+  vertical-align: middle;
 }
 
 /*
@@ -212,6 +213,21 @@ div ul li {
   display: inline;
   flex-direction: column;
   padding: 20px; 
+}
+
+/*
+PORTFOLIO
+*/
+
+#portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+#portfolio img {
+  margin: 10px;
 }
 
 /*
@@ -328,7 +344,7 @@ footer h4 {
     width: 50%;
     padding: 0;
   }
-  
+
   nav .setacima {
     display: none;
   }
@@ -377,7 +393,7 @@ footer h4 {
     text-align: justify;
   }
 
-  a img {
+  div a img {
     height: 35%;
     width: 20%;
   }
@@ -420,7 +436,30 @@ footer h4 {
   }
 
   .fancybox {
-    padding: 50px 0;
+    padding: 80px 0 0;
+  }
+
+  /*
+  PORTFOLIO
+  */
+
+  .portfolio {
+    flex-direction: row;
+    padding: 80px;
+    margin: 0;
+  }
+
+  .portfolio div a img {
+    margin: 20px;
+    border-radius: 20px;
+    width: 90%;
+    height: 70%;
+  }
+
+  .portfolio img:hover {
+    transform: translateY(-5px);
+    transition: .8s;
+    box-shadow: 20px 20px 20px rgba(0,0,0,.8);
   }
 
   /*
