@@ -336,7 +336,7 @@ footer h4 {
     flex-direction: row;
     justify-content: space-around;
     background-color: #252525;
-    opacity: .8
+    opacity: .8;
   }
   
   nav ul {
@@ -459,7 +459,7 @@ footer h4 {
   .portfolio img:hover {
     transform: translateY(-5px);
     transition: .8s;
-    box-shadow: 20px 20px 20px rgba(0,0,0,.8);
+    box-shadow: 20px 20px 20px rgba(0,0,0,.9);
   }
 
   /*
