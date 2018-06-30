@@ -114,54 +114,28 @@ a img {
 NAV
 */
 
-nav {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 20px;
-  background-color: #5e5e5e;
-}
-
-nav > a {
+nav a {
   text-decoration: none;
   font-family: "Oswald", Arial, Helvetica, sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 28;
   color: #c2c2c2;
 }
 
 nav ul {
-  list-style: none;
-  padding: 20px 20px 0 20px;
+  padding: 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 50%;
+  width: 100%;
   font-size: 1.3em;
 }
 
-nav ul li {
-  text-align: center;
-  width: 50%;
-}
-
-nav ul li a {
-  display: inline-block;
-  padding: 10px 0;
-  width: 100%;
-  text-decoration: none;
-  color: #c2c2c2;
-}
 
 nav a h1{
   font-family: "Oswald", Arial, Helvetica, sans-serif;
   font-size: 28px;
   letter-spacing: 1px;
-}
-
-.setabaixo, .setacima {
-  font-size: 40px;
-  margin: 10px
 }
 
 /*
@@ -320,7 +294,7 @@ footer h4 {
     background-image: url('../img/botaogaleria.png');
     background-size: cover;
     background-position: center;
-    color: #141414;
+    color: black;
     padding: 10px;
     margin: 15px;
   }
@@ -343,14 +317,6 @@ footer h4 {
     flex-direction: row;
     width: 50%;
     padding: 0;
-  }
-
-  nav .setacima {
-    display: none;
-  }
-  
-  nav .setabaixo {
-    display: none;
   }
 
   .botao:hover {
@@ -420,7 +386,7 @@ footer h4 {
     background-image: url('../img/botaosobre.png');
     background-size: cover;
     background-position: center;
-    color: #141414;
+    color: black;
     padding: 0px 10px 0px 10px;
   }
 
@@ -489,7 +455,7 @@ footer h4 {
     background-image: url('../img/botaoinsta.png');
     background-size: cover;
     background-position: center;
-    color: #141414;
+    color: black;
   }
 
   /*
