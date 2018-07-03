@@ -304,19 +304,17 @@ footer h4 {
   */
   
   nav {
-    position: fixed;
-    padding: 15px;
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-around;
     background-color: #252525;
     opacity: .8;
+    font-size: 1.1em;
+  }
+
+  .navbar-brand {
+    margin: 0 0 0 50px;
   }
   
-  nav ul {
-    flex-direction: row;
-    width: 50%;
-    padding: 0;
+  nav ul li {
+    margin: 10px 50px 10px 50px;
   }
 
   .botao:hover {
@@ -393,6 +391,11 @@ footer h4 {
   /*
   DIV
   */
+
+  div ul li {
+    padding: 0;
+  }
+
   .contato {
     padding: 80px 200px 0;
   }

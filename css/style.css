@@ -114,11 +114,20 @@ a img {
 NAV
 */
 
-nav {
-  display: flex;
-  flex-direction: column;
+.menu.hide, .menu.show {
+  justify-content: center;
   align-items: center;
-  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+nav {
+  margin: 0;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   background-color: #5e5e5e;
 }
 
@@ -132,13 +141,13 @@ nav > a {
 
 nav ul {
   list-style: none;
-  padding: 20px 20px 0 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 50%;
   font-size: 1.3em;
 }
+
 
 nav ul li {
   text-align: center;
@@ -157,11 +166,13 @@ nav a h1{
   font-family: "Oswald", Arial, Helvetica, sans-serif;
   font-size: 28px;
   letter-spacing: 1px;
+  margin: 10px 30px 10px 10px;
+  width: 100%;
 }
 
 .setabaixo, .setacima {
   font-size: 40px;
-  margin: 10px
+  margin: 5px;
 }
 
 /*
@@ -171,7 +182,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px 20px 40px;
+  padding: 40px 20px 40px;
 }
 
 header .fundoweb {
@@ -219,14 +230,14 @@ div ul li {
 PORTFOLIO
 */
 
-#portfolio {
+.portfolio {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 20px;
 }
 
-#portfolio img {
+.portfolio img {
   margin: 10px;
 }
 
@@ -328,6 +339,12 @@ footer h4 {
   /*
   NAV
   */
+
+  .menu.hide, .menu.show {
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0;
+  }
   
   nav {
     position: fixed;
@@ -337,6 +354,10 @@ footer h4 {
     justify-content: space-around;
     background-color: #252525;
     opacity: .8;
+  }
+
+  nav a h1 {
+    margin: 0;
   }
   
   nav ul {
