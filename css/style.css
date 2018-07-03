@@ -129,6 +129,7 @@ nav {
   align-items: center;
   justify-content: center;
   background-color: #5e5e5e;
+  z-index: 30;
 }
 
 nav > a {
@@ -252,6 +253,7 @@ INSTA
 
 .container {
   margin: 40px 0 0;
+  z-index: 20;
 }
 
 /*
