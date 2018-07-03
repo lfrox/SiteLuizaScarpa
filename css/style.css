@@ -145,7 +145,7 @@ nav ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 50%;
+  width: 40%;
   font-size: 1.3em;
 }
 
@@ -167,8 +167,7 @@ nav a h1{
   font-family: "Oswald", Arial, Helvetica, sans-serif;
   font-size: 28px;
   letter-spacing: 1px;
-  margin: 10px 30px 10px 10px;
-  width: 100%;
+  margin: 10px 50px 10px 20px;
 }
 
 .setabaixo, .setacima {
@@ -319,6 +318,13 @@ footer h4 {
     letter-spacing: 1px;
   }
 
+  .botao:hover {
+    background-image: url('../img/teste_tinta.png');
+    background-size: cover;
+    background-position: center;
+    color: rgb(41, 41, 41);
+  }
+
   .botaogaleria {
     display: block;
     padding: 10px;
@@ -374,13 +380,6 @@ footer h4 {
   
   nav .setabaixo {
     display: none;
-  }
-
-  .botao:hover {
-    background-image: url('../img/teste_tinta.png');
-    background-size: cover;
-    background-position: center;
-    color: rgb(41, 41, 41);
   }
 
   /*
