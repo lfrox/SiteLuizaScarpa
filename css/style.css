@@ -438,7 +438,7 @@ footer h4 {
     padding: 15px;
   }
 
-  .botaosobre:hover {
+  .js-scroll-trigger:hover {
     background-image: url('../img/botaosobre.png');
     background-size: cover;
     background-position: center;
