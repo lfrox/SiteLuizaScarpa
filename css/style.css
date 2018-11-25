@@ -56,7 +56,7 @@ html, body {
 }
 
 main {
-  min-height: 100%;
+  min-height: 98%;
   margin: 0 auto -50px;
 }
 
@@ -77,7 +77,7 @@ h1, h2, h3 {
 p {
   font-family: "Oswald", Arial, Helvetica, sans-serif;
   font-size: 20px;
-  padding: 0px 10px 0px 10px;
+  padding: 0px 30px 0px;
   text-align: center;
 }
 
@@ -182,7 +182,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 40px 20px 40px;
+  padding: 50px 0px 0px;
 }
 
 header .fundoweb {
@@ -235,6 +235,7 @@ PORTFOLIO
   flex-direction: column;
   align-items: center;
   padding-top: 20px;
+  padding-bottom: 60px;
 }
 
 .portfolio img {
@@ -255,6 +256,10 @@ INSTA
   z-index: 20;
 }
 
+#instafeed{
+  padding-bottom: 80px;
+}
+
 /*
 FOOTER
 */
@@ -263,7 +268,6 @@ footer {
   text-align: center;
   color: #c2c2c2;
   height: 50px;
-  margin: 80px 0 0;
 }
 
 .botaofooter {
@@ -274,6 +278,25 @@ footer {
 footer h4 {
   font-size: 15px;
   font-weight: 900;
+}
+
+.fancybox {
+  margin-bottom: 0px;
+}
+
+.menugal {
+  font-size: 30px;
+  padding: 10px;
+  margin: 20px;
+  margin-bottom: 80px;
+}
+
+.espacogal {
+  margin-bottom: 80px;
+}
+
+.titulogaleria {
+  font-size: 50px;
 }
 
 @media only screen and (max-width: 768px){
@@ -336,7 +359,7 @@ footer h4 {
   }
 
   .botaogaleria:hover {
-    background-image: url('../img/botaogaleria.png');
+    background-image: url('../img/botaogaleria11.png');
     background-size: cover;
     background-position: center;
     color: #141414;
@@ -450,7 +473,7 @@ footer h4 {
   DIV
   */
   .contato {
-    padding: 80px 200px 0;
+    padding: 20px 200px 0;
   }
 
   a h2 {
@@ -458,7 +481,34 @@ footer h4 {
   }
 
   .fancybox {
-    padding: 80px 0 0;
+    padding: 10px 0 30px;
+    margin-bottom: 0px;
+  }
+
+  .titulogal {
+    padding: 80px 80px 0px;
+  }
+
+  .titulogaleria {
+    font-size: 50px;
+  }
+
+  .menugal {
+    font-size: 30px;
+    padding: 10px;
+    margin: 20px;
+    margin-bottom: 80px;
+  }
+
+  .espacogal {
+    margin-bottom: 80px;
+  }
+
+  .espacogal :hover {
+    background-image: url('../img/teste_tinta1.png');
+    background-size: cover;
+    background-position: center;
+    color: #141414;
   }
 
   /*
@@ -467,7 +517,7 @@ footer h4 {
 
   .portfolio {
     flex-direction: row;
-    padding: 80px;
+    padding: 0px 80px 0px;
     margin: 0;
   }
 
@@ -493,7 +543,7 @@ footer h4 {
   }
 
   #instafeed {
-    padding: 0 50px 0 0;
+    padding: 0 50px 40px 0;
   }
 
   .instaimg img {
