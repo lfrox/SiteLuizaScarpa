@@ -145,7 +145,7 @@ nav ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 40%;
+  width: 32%;
   font-size: 1.3em;
 }
 
@@ -175,9 +175,9 @@ nav a h1{
   margin: 5px;
 }
 
-.ingles img {
+.ingles {
   margin: 0;
-  padding: 0;
+  padding: 1px;
 }
 
 /*
@@ -214,7 +214,7 @@ SECTION
 */
 
 section h2 {
-  font-size: 20px;
+  font-size: 25px;
 }
 
 /*
@@ -262,7 +262,7 @@ INSTA
 }
 
 #instafeed{
-  padding-bottom: 80px;
+  padding: 0 25px 80px 25px;
 }
 
 /*
