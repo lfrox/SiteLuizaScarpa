@@ -145,7 +145,7 @@ nav ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 32%;
+  width: 40%;
   font-size: 1.3em;
 }
 
@@ -167,7 +167,7 @@ nav a h1{
   font-family: "Oswald", Arial, Helvetica, sans-serif;
   font-size: 28px;
   letter-spacing: 1px;
-  margin: 10px 50px 10px 20px;
+  margin: 0;
 }
 
 .setabaixo, .setacima {
@@ -177,7 +177,7 @@ nav a h1{
 
 .ingles {
   margin: 0;
-  padding: 1px;
+  padding: 0;
 }
 
 /*
